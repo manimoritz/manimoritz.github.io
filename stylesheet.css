@@ -1,0 +1,56 @@
+/* Color Palette (ordered by frequency):
+ * #624E88, #8967B3, #CB80AB, #E6D9A2
+ */
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 80px;
+  text-align: center;
+  background: #624E88;
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  a {
+    margin: 10px;
+  }
+}
+
+article.single-file {
+  display: flex;
+  flex-wrap: wrap;
+
+  h2 {
+    text-align: center;
+  }
+
+  div {
+    flex: 1 400px;
+  }
+}
+
+section {
+  margin: 10px;
+  padding: 10px;
+  background: #624E88;
+  border: 2px solid #E6D9A2;
+  border-radius: 5px;
+  color: white;
+  flex: 1 400px;
+}
+
+hgroup {
+  text-align: center;
+}
+
+.post {
+  display: none;
+}
+
+.post.show {
+  display: block;
+}
